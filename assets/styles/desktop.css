@@ -1,5 +1,6 @@
 @media screen and (min-width: 1024px)
 {
+    /*Styles for 4 display*/
     .container_feature{
 display: grid;
 width: 100%;
@@ -97,4 +98,98 @@ padding-left: 35%;
 
 
 }
+/*Styles for 2 display*/
+.container_display2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+  }
+  .skincare_hands {
+    display: grid;
+    border-color: aqua;
+    margin: 2%;
+    padding: 2%;
+  }
+
+  .skincare_oil {
+    display: grid;
+    padding-left: 30%;
+  }
+
+  .skincare_title {
+    display: grid;
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4em;
+    line-height: 1.5em;
+    margin-top: 45%;
+    text-align: center;
+    color: #000000;
+  }
+
+  .skincare_header {
+    display: grid;
+    font-family: 'Style Script';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10em;
+    line-height: 2%;
+    text-align: center;
+    color: #68513F;
+    transform: rotate(-5.08deg);
+    grid-row: 1/3;
+  }
+
+  .skincare_face {
+    display: grid;
+    width: 30%;
+    height: 25%;
+  }
+
+  .skincare_tools {
+    display: grid;
+    margin-top: 10%;
+    height: 10%;
+    padding-left: 15%;
+  }
+
+  .skincare_body {
+    grid-template-rows: 1fr 20%;
+    grid-template-columns: 1fr;
+    display: grid;
+    justify-items: center;
+  }
+
+  .skincare_body_text {
+    display: grid;
+    grid-row: 1/2;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5em;
+    line-height: 2em;
+    text-align: center;
+    color: #000000;
+  }
+
+  .skincare_button {
+    width: 6vw;
+    height: 3vw;
+    border-radius: 3em;
+    background: #F1EBE7;
+    border: 0.2em solid #DACEC6;
+    color: #68513F;
+    font-size: 1vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin-top: 1vh;
+  }
+
+  .skincare_mask {
+    padding-top: 5%;
+
+
+  }
 }

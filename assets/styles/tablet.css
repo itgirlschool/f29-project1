@@ -361,7 +361,7 @@
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 25% 40% 35%;
     background: white;
-    grid-gap: 0.3em;
+    grid-gap: 0.5em;
     margin-right: 5%;
 
   }
@@ -374,14 +374,15 @@
     margin-top: 10%;
     max-width: 100%;
     max-height: 30%;
-    margin-left: 0%;
+    margin-left: 2%;
     margin-right: 0%;
     justify-content: space-between;
     align-items: start;
     display: grid;
-
-    grid-template-columns: minmax(max-content, 300px);
-    grid-template-rows: 1fr;
+    /*grid-template-columns: minmax(max-content, 300px);
+    grid-template-rows: 1fr;*/
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
 
   }
 
@@ -390,17 +391,19 @@
   .blog__image1 {
     grid-row: 1/2;
     grid-column: 1/2;
-    height: 49.8%;
-    /*position: relative;*/
+    height: 77.8%;
+    width: 99%;
+
   }
 
   .rectangle1 {
     grid-row: 1/2;
     grid-column: 1/2;
     z-index: 1;
-    width: 50%;
-    padding-left: 25%;
-    padding-top: 53%;
+    width: 40%;
+    padding-left: 27%;
+    padding-top: 41%;
+    position: absolute;
   }
 
   .text1 {
@@ -408,14 +411,14 @@
     grid-column: 1/2;
     z-index: 1;
     width: 40%;
-    padding-left: 31%;
-    padding-top: 70%;
+    padding-left: 30%;
+    padding-top: 55%;
     color: white;
     font-size: 1.8vw;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    position: absolute;
   }
-
 
   /*блок#2 фото+квадрат+текст*/
 
@@ -423,7 +426,8 @@
     grid-row: 1/2;
     grid-column: 2/3;
     /* position: relative;*/
-    height: 49.8%;
+    /*height: 49.8%;*/
+    width: 99%;
   }
 
   .rectangle2 {
@@ -433,6 +437,7 @@
     width: 40%;
     padding-left: 32%;
     padding-top: 42%;
+    position: absolute;
   }
 
   .text2 {
@@ -440,12 +445,13 @@
     grid-column: 2/3;
     z-index: 1;
     width: 40%;
-    padding-left: 38%;
+    padding-left: 36%;
     padding-top: 55%;
     color: white;
     font-size: 1.8vw;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    position: absolute;
   }
 
   /*блок#3 фото+квадрат+текст*/
@@ -453,8 +459,9 @@
     grid-row: 1/2;
     grid-column: 3/4;
     /*position: relative;*/
-    height: 49.8%;
-    margin-right: 0%;
+    /*height: 49.8%;
+    margin-right: 0%;*/
+    width: 99%;
   }
 
   .rectangle3 {
@@ -464,6 +471,7 @@
     width: 40%;
     padding-left: 30%;
     padding-top: 42%;
+    position: absolute;
   }
 
   .text3 {
@@ -471,12 +479,13 @@
     grid-column: 3/4;
     z-index: 1;
     width: 40%;
-    padding-left: 37%;
+    padding-left: 35%;
     padding-top: 55%;
     color: white;
     font-size: 1.8vw;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    position: absolute;
   }
 
 
@@ -506,7 +515,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 0.3em;
-    margin-top: -20%;
+    margin-top: 0%;
     margin-bottom: 0vh;
     max-height: 50%;
   }

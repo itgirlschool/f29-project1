@@ -369,16 +369,16 @@
     /* align-items: center;*/
     /*justify-content: space-between;*/
     margin-top: 4vh;
+    margin-left: 0.2%;
     width: 98%;
     display: grid;
-    gap: 0.1em;
+    gap: 0.1%;
     grid-template-columns: 1fr 1fr 1fr;
     position: relative;
     /*grid-template-columns: repeat((auto-fill, minmax 200px, 1fr))
       /*grid-template-columns: repeat((auto-fit, minmax 200px, 1fr));*/
 
   }
-
 
   /*блок 1 фото+квадрат+текст*/
 
@@ -389,8 +389,8 @@
     /*max-height: 74.8vh;
     max-width: 28vw;*/
     /*position: relative;*/
-    width: 100%;
-    height: 77.7%;
+    width: 99.6%;
+    height: 77.8%;
   }
 
   .rectangle1 {
@@ -421,7 +421,7 @@
   .blog__image2 {
     grid-row: 1/2;
     grid-column: 2/3;
-    width: 100%;
+    width: 99.6%;
     /*max-height: 74.8vh;
     max-width: 36vw;
     /*position: relative;*/
@@ -442,7 +442,7 @@
     grid-column: 2/3;
     z-index: 1;
     width: 40%;
-    padding-left: 15vw;
+    padding-left: 14vw;
     padding-top: 16vh;
     color: white;
     font-size: 1.5vw;
@@ -455,7 +455,7 @@
   .blog__image3 {
     grid-row: 1/2;
     grid-column: 3/4;
-    width: 100%;
+    width: 99.6%;
     /*max-height: 74.8vh;
     max-width: 36vw;
     /*position: relative;*/
@@ -468,6 +468,7 @@
     width: 40%;
     padding-left: 10vw;
     padding-top: 12vh;
+    position: absolute;
 
   }
 
@@ -482,6 +483,7 @@
     font-size: 1.5vw;
     font-weight: 400;
     font-family: 'Inter', sans-serif;
+    position: absolute;
 
   }
 
@@ -495,7 +497,7 @@
     font-size: 4em;
     font-weight: 300;
     font-family: 'STSong', serif;
-    margin-top: 6vh;
+    margin-top: 1vh;
     max-height: 10vh;
 
   }
@@ -561,7 +563,7 @@
     color: #68513F;
     font-size: 1vw;
     font-weight: 400;
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     margin-top: 2.5vh;
   }
 

@@ -613,14 +613,15 @@
     width: 100%;
     height: 100vh;
     background: white;
-    margin-top: 40vh;
+    margin-top: 46vh;
     /*добавила отступ, иначе футер залазит на предыдущую страницу*/
   }
 
   .container__footer {
     display: grid;
     grid-template-rows: 2fr repeat(7, 0.5fr) 2fr;
-    width: 95%;
+    width: 96%;
+    /*увеличила ширину на 1%*/
     height: 40vh;
     justify-self: center;
     margin-top: 1em;

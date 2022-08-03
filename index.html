@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project1</title>
     <link rel="stylesheet" href="./assets/styles/desktop.css">
     <link rel="stylesheet" href="./assets/styles/tablet.css">
     <link rel="stylesheet" href="./assets/styles/mobile.css">
@@ -24,39 +24,41 @@
 
     <!-- Это header <div class="header"> -->
 
-    <img class="header__logo" src=./assets/images/Skinn.png alt="print" />
-    <a href="#" class="header__shop">Shop All</a>
-    <a href="#" class="header__story">Our story</a>
-    <a href="#" class="header__blog">Blog</a>
-    <a href="#" class="header__pages">Pages</a>
-    <div class="header__cart">Cart</div>
-    <span class="cart_img_container">
-        <img class="header__cart_img" src="./assets/images/Frame.png" alt="print"></span>
+    <div class="header">
+        <img class="header__logo" src=./assets/images/Skinn.png alt="print" />
+        <a href="#" class="header__shop">Shop All</a>
+        <a href="#" class="header__story">Our story</a>
+        <a href="#" class="header__blog">Blog</a>
+        <a href="#" class="header__pages">Pages</a>
+        <div class="header__cart">Cart</div>
+        <span class="cart_img-container">
+            <img class="header__frame-img" src="./assets/images/Frame.png" alt="print"></span>
     </div>
 
-    <div class="header__menu_small">
+    <div class="header__menu-small">
+
         <nav role="navigation">
             <div id="menuToggle">
                 <!--
-          A fake / hidden checkbox is used as click reciever,
-          so you can use the :checked selector on it.
-          -->
+              A fake / hidden checkbox is used as click reciever,
+              so you can use the :checked selector on it.
+              -->
                 <input type="checkbox" />
 
                 <!--
-          Some spans to act as a hamburger.
-          
-          They are acting like a real hamburger,
-          not that McDonalds stuff.
-          -->
+              Some spans to act as a hamburger.
+              
+              They are acting like a real hamburger,
+              not that McDonalds stuff.
+              -->
                 <span></span>
                 <span></span>
                 <span></span>
 
                 <!--
-          Too bad the menu has to be inside of the button
-          but hey, it's pure CSS magic.
-          -->
+              Too bad the menu has to be inside of the button
+              but hey, it's pure CSS magic.
+              -->
                 <ul id="menu">
                     <a href="#">
                         <li>Shop All</li>
@@ -76,8 +78,30 @@
             </div>
         </nav>
     </div>
-
     <!--Header End -->
+
+
+    <div class="container_display2">
+        <!--2 display-->
+
+        <div><img class="skincare_hands" src="./assets/images/skinncare_hands.png" alt="hands" /></div>
+        <div>
+            <p class="skincare_title">Natural and certified organic</p>
+            <p class="skincare_header">Skincare</p>
+        </div>
+        <div><img class="skincare_face" src="./assets/images/skinncare_face.png" alt="face" />
+            <div>
+                <img class="skincare_tools" src="./assets/images/skinncare_tools.png" alt="tools" />
+            </div>
+        </div>
+        <div><img class="skincare_oil" src="./assets/images/skinncare_oil.png" alt="oil" /></div>
+        <div class="skincare_body">
+            <p class="skincare_body_text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+            <button class="skincare_button">Shop all</button>
+        </div>
+        <div><img class="skincare_mask" src="./assets/images/skinncare_mask.png" alt="mask"></div>
+    </div>
 
 
     <div class="container_feature">
@@ -119,15 +143,15 @@
 
             <img class="blog__image1" src="./assets/images/skinn_blog_img1.png" alt="photo" />
             <img class="rectangle1" src="./assets/images/skinn_blog_rectangle.png" alt="photo">
-            <p class="rectangle1__text1">BODY WASH</p>
+            <p class="text1">BODY WASH</p>
 
             <img class="blog__image2" src="./assets/images/skinn_blog_img2.png" alt="photo" />
             <img class="rectangle2" src="./assets/images/skinn_blog_rectangle.png" alt="photo">
-            <p class="rectangle2__text2">FACE WASH</p>
+            <p class="text2">FACE WASH</p>
 
             <img class="blog__image3" src="./assets/images/skinn_blog_img3.png" alt="photo" />
             <img class="rectangle3" src="./assets/images/skinn_blog_rectangle.png" alt="photo">
-            <p class="rectangle3__text3">CLEANSER</p>
+            <p class="text3">CLEANSER</p>
 
 
         </div>
@@ -135,24 +159,30 @@
         <div class="blog__name">Skinn blog</div>
 
 
-        <div class="blog__images__text__buttons">
+        <div class="blog__images-text-buttons">
 
-            <div class="img4__text4__button4">
-                <img class="skinn_blog_img4" src="./assets/images/skinn_blog_img4.png" alt="photo" />
-                <p class="skinn_blog__img4__text">Which skinceuticals vitamin c serum is right for you</p>
+            <div class="img4-text4-button4">
+                <img class="skinn_blog__img4" src="./assets/images/skinn_blog_img4.png" alt="photo" />
+                <p class="skinn_blog__text4">Which skinceuticals vitamin c serum is right for you</p>
                 <button class="button4">Read more</button>
 
             </div>
 
-            <div class="img5__text5__button5">
-                <img class="skinn_blog_img5" src="./assets/images/skinn_blog_img5.png" alt="photo" />
-                <p class="skinn_blog__img5__text">Everything you need to know about your skin</p>
+            <div class="img5-text5-button5">
+                <img class="skinn_blog__img5" src="./assets/images/skinn_blog_img5.png" alt="photo" />
+                <p class="skinn_blog__text5">Everything you need to know about your skin</p>
                 <button class="button5">Read more</button>
 
             </div>
 
         </div>
     </div>
+
+
+
+
+
+
 
 
 </body>

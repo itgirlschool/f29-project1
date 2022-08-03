@@ -10,7 +10,7 @@
     gap: 0.5em;
   }
 
-  .header__menu_small {
+  .header__menu-small {
     display: none;
   }
 
@@ -68,15 +68,15 @@
     text-align: end;
   }
 
-  .cart_img_container {
-    width: 50%;
-    margin-top: -0.4vh;
-  }
-
-  .header__cart_image {
+  .header__frame-image {
     grid-column: 7;
     margin-left: 0vw;
     width: 20%;
+  }
+
+  .cart_img-container {
+    width: 50%;
+    margin-top: -0.4vh;
   }
 
 

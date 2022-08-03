@@ -7,13 +7,16 @@
     background: white;
     gap: 1em;
   }
-  .header__menu_small {
+
+  .header__menu-small {
     display: none;
   }
+
   .header__logo {
     grid-column: 1;
     margin-left: 3vw;
   }
+
   .header__shop {
     grid-column: 2;
     font-family: "Inter", sans-serif;
@@ -21,6 +24,7 @@
     font-size: 1em;
     color: black;
   }
+
   .header__story {
     grid-column: 3;
     font-family: "Inter", sans-serif;
@@ -28,6 +32,7 @@
     font-size: 1em;
     color: black;
   }
+
   .header__blog {
     grid-column: 4;
     font-family: "Inter", sans-serif;
@@ -36,6 +41,7 @@
     font-size: 1em;
     color: black;
   }
+
   .header__pages {
     grid-column: 5;
     font-family: "Inter", sans-serif;
@@ -43,22 +49,26 @@
     font-size: 1em;
     color: black;
   }
+
   .header__shop:hover,
-.header__story:hover,
-.header__blog:hover,
-.header__pages:hover {
+  .header__story:hover,
+  .header__blog:hover,
+  .header__pages:hover {
     text-decoration: underline;
   }
+
   .header__cart {
     grid-column: 6;
     margin-left: 22vw;
     font-family: "Inter", sans-serif;
   }
-  .header__cart_image {
+
+  .header__frame-image {
     grid-column: 7;
     margin-left: 0.5vw;
   }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .header {
     display: grid;
@@ -68,14 +78,17 @@
     background: white;
     gap: 0.5em;
   }
-  .header__menu_small {
+
+  .header__menu-small {
     display: none;
   }
+
   .header__logo {
     grid-column: 1;
     margin-left: 4vw;
     width: 30%;
   }
+
   .header__shop {
     grid-column: 2;
     font-family: "Inter", sans-serif;
@@ -83,6 +96,7 @@
     font-size: 0.9em;
     color: black;
   }
+
   .header__story {
     grid-column: 3;
     font-family: "Inter", sans-serif;
@@ -90,6 +104,7 @@
     font-size: 0.9em;
     color: black;
   }
+
   .header__blog {
     grid-column: 4;
     font-family: "Inter", sans-serif;
@@ -98,6 +113,7 @@
     font-size: 0.9em;
     color: black;
   }
+
   .header__pages {
     grid-column: 5;
     font-family: "Inter", sans-serif;
@@ -105,12 +121,14 @@
     font-size: 0.9em;
     color: black;
   }
+
   .header__shop:hover,
-.header__story:hover,
-.header__blog:hover,
-.header__pages:hover {
+  .header__story:hover,
+  .header__blog:hover,
+  .header__pages:hover {
     text-decoration: underline;
   }
+
   .header__cart {
     grid-column: 6;
     /*margin-left: 18vw;*/
@@ -118,16 +136,19 @@
     font-size: 0.9em;
     text-align: end;
   }
-  .cart_img_container {
-    width: 50%;
-    margin-top: -0.4vh;
-  }
-  .header__cart_image {
+
+  .header__frame-image {
     grid-column: 7;
     margin-left: 0vw;
     width: 20%;
   }
+
+  .cart_img-container {
+    width: 50%;
+    margin-top: -0.4vh;
+  }
 }
+
 @media screen and (min-width: 421px) and (max-width: 767px) {
   .header {
     display: grid;
@@ -137,24 +158,30 @@
     background: white;
     gap: 0.5em;
   }
+
   .header__logo {
     grid-column: 2;
     margin-left: 8vw;
     margin-top: 1.4vh;
     width: 30%;
   }
+
   .header__shop {
     display: none;
   }
+
   .header__story {
     display: none;
   }
+
   .header__blog {
     display: none;
   }
+
   .header__pages {
     display: none;
   }
+
   .header__cart {
     grid-column: 3;
     /*margin-left: 18vw;*/
@@ -163,21 +190,26 @@
     margin-top: 1.6vh;
     text-align: end;
   }
-  .cart_img_container {
-    width: 50%;
-    margin-top: 1.6vh;
-  }
-  .header__cart_image {
+
+  .header__frame-image {
     grid-column: 4;
     margin-left: 0vw;
     width: 20%;
   }
-  .header__menu_small {
+
+  .header__menu-small {
     grid-column: 1;
   }
+
+  .cart_img-container {
+    width: 50%;
+    margin-top: 1.6vh;
+  }
+
   body {
     font-family: "Inter", sans-serif;
   }
+
   #menuToggle {
     display: block;
     position: relative;
@@ -186,17 +218,20 @@
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
+
   #menuToggle a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
   }
+
   #menuToggle a:hover {
     color: tomato;
   }
+
   #menuToggle input {
     display: block;
     width: 40px;
@@ -211,6 +246,7 @@
     /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
+
   /*
   * Just a quick hamburger
   */
@@ -226,34 +262,40 @@
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
+
   #menuToggle span:first-child {
     transform-origin: 0% 0%;
   }
+
   #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
+
   /* 
   * Transform all the slices of hamburger
   * into a crossmark.
   */
-  #menuToggle input:checked ~ span {
+  #menuToggle input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
+
   /*
   * But let's hide the middle one.
   */
-  #menuToggle input:checked ~ span:nth-last-child(3) {
+  #menuToggle input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
+
   /*
   * Ohyeah and the last one should go the other direction
   */
-  #menuToggle input:checked ~ span:nth-last-child(2) {
+  #menuToggle input:checked~span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
+
   /*
   * Make this absolute positioned
   * at the top left of the screen
@@ -272,17 +314,20 @@
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
+
   #menu li {
     padding: 10px 0;
     font-size: 22px;
   }
+
   /*
   * And let's slide it in from the left
   */
-  #menuToggle input:checked ~ ul {
+  #menuToggle input:checked~ul {
     transform: none;
   }
 }
+
 @media screen and (max-width: 420px) {
   .header {
     display: grid;
@@ -292,24 +337,30 @@
     background: white;
     gap: 0.5em;
   }
+
   .header__logo {
     grid-column: 2;
     margin-left: 8vw;
     margin-top: 1.4vh;
     width: 30%;
   }
+
   .header__shop {
     display: none;
   }
+
   .header__story {
     display: none;
   }
+
   .header__blog {
     display: none;
   }
+
   .header__pages {
     display: none;
   }
+
   .header__cart {
     grid-column: 3;
     /*margin-left: 18vw;*/
@@ -318,21 +369,26 @@
     margin-top: 1.5vh;
     text-align: end;
   }
-  .cart_img_container {
-    width: 50%;
-    margin-top: 1.5vh;
-  }
-  .header__cart_image {
+
+  .header__frame-image {
     grid-column: 4;
     margin-left: 0vw;
     width: 20%;
   }
-  .header__menu_small {
+
+  .header__menu-small {
     grid-column: 1;
   }
+
+  .cart_img_container {
+    width: 50%;
+    margin-top: 1.5vh;
+  }
+
   body {
     font-family: "Inter", sans-serif;
   }
+
   #menuToggle {
     display: block;
     position: relative;
@@ -341,17 +397,20 @@
     z-index: 1;
     -webkit-user-select: none;
     -moz-user-select: none;
-     -ms-user-select: none;
-         user-select: none;
+    -ms-user-select: none;
+    user-select: none;
   }
+
   #menuToggle a {
     text-decoration: none;
     color: #232323;
     transition: color 0.3s ease;
   }
+
   #menuToggle a:hover {
     color: tomato;
   }
+
   #menuToggle input {
     display: block;
     width: 40px;
@@ -366,6 +425,7 @@
     /* and place it over the hamburger */
     -webkit-touch-callout: none;
   }
+
   /*
   * Just a quick hamburger
   */
@@ -381,34 +441,40 @@
     transform-origin: 4px 0px;
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
   }
+
   #menuToggle span:first-child {
     transform-origin: 0% 0%;
   }
+
   #menuToggle span:nth-last-child(2) {
     transform-origin: 0% 100%;
   }
+
   /* 
   * Transform all the slices of hamburger
   * into a crossmark.
   */
-  #menuToggle input:checked ~ span {
+  #menuToggle input:checked~span {
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
     background: #232323;
   }
+
   /*
   * But let's hide the middle one.
   */
-  #menuToggle input:checked ~ span:nth-last-child(3) {
+  #menuToggle input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
   }
+
   /*
   * Ohyeah and the last one should go the other direction
   */
-  #menuToggle input:checked ~ span:nth-last-child(2) {
+  #menuToggle input:checked~span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
   }
+
   /*
   * Make this absolute positioned
   * at the top left of the screen
@@ -427,14 +493,18 @@
     transform: translate(-100%, 0);
     transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
   }
+
   #menu li {
     padding: 10px 0;
     font-size: 22px;
   }
+
   /*
   * And let's slide it in from the left
   */
-  #menuToggle input:checked ~ ul {
+  #menuToggle input:checked~ul {
     transform: none;
   }
-}/*# sourceMappingURL=header.css.map */
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -627,8 +627,9 @@
     width: 100%;
     height: 100vh;
     background: white;
-    margin-top: 46vh;
+    margin-top: 50vh;
     /*добавила отступ, иначе футер залазит на предыдущую страницу*/
+    /*добавила побольше отступ*/
   }
 
   .container__footer {

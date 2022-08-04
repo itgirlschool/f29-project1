@@ -185,9 +185,10 @@
 
   /*добавила ширину, так как картинка большая*/
 
-  /*.imgface-container {
+  /*.container {
     width: 50%;
   }*/
+
 
   /*добавила ширину, так как картинка большая*/
 
@@ -249,12 +250,13 @@
     color: #68513F;
     transform: rotate(5.54deg);
   }
-
+ /*добавила отступ для кнопки вниз*/
   .buttontolook {
     grid-row: 5 / 6;
     grid-column: 1 / 2;
     height: 8vh;
     width: 100%;
+    margin-top:8%;
     text-align: center;
     background: #F1EBE7;
     border: #DACEC6 solid 1px;

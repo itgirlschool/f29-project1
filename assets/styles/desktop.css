@@ -244,19 +244,21 @@
 
   /*Styles for 3 display*/
 
-  .lady {
-    width: 100%;
+
+  .products {
+    text-align: center;
+    width: 35%;
   }
 
   .products-word {
     text-align: center;
     margin-top: 12vh;
-    ;
+
   }
 
   .main-text {
     text-align: center;
-    margin-top: 12vh;
+    /*margin-top: 12vh;*/
     font-family: "STsong", serif;
     font-size: 4vw;
   }
@@ -265,14 +267,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5vw;
-    justify-content: space-between;
-    width: 98%;
+
   }
 
   .cleanser {
 
     display: grid;
-    grid-column: 1/2;
+    grid-column: 1;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -285,6 +286,7 @@
     margin-left: 0.8vw;
     margin-top: 0.8vw;
     width: 93%;
+
   }
 
   .cleanser__name {
@@ -299,7 +301,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
 
   }
 
@@ -308,7 +310,7 @@
     grid-row: 3/4;
     font-size: 1.2vw;
     margin-left: 1vw;
-    margin-top: -2vh;
+    margin-top: 0vh;
 
   }
 
@@ -322,11 +324,12 @@
     border: 2px #DACEC6;
     font-family: "Inter", sans-serif;
     margin-bottom: 0.8vw;
+    color: #68513F
   }
 
   .serums {
     display: grid;
-    grid-column: 2/3;
+    grid-column: 2;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -339,6 +342,7 @@
     margin-left: 0.8vw;
     margin-top: 0.8vw;
     width: 93%;
+
   }
 
   .serums__name {
@@ -353,7 +357,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
 
   }
 
@@ -362,7 +366,7 @@
     grid-row: 3/4;
     font-size: 1.2vw;
     margin-left: 1vw;
-    margin-top: -2vh;
+    margin-top: 0vh;
 
   }
 
@@ -376,11 +380,12 @@
     border: 2px #DACEC6;
     font-family: "Inter", sans-serif;
     margin-bottom: 0.8vw;
+    color: #68513F
   }
 
   .bodywash {
     display: grid;
-    grid-column: 3/4;
+    grid-column: 3;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -393,6 +398,7 @@
     margin-left: 0.8vw;
     margin-top: 0.8vw;
     width: 93%;
+
   }
 
   .bodywash__name {
@@ -407,7 +413,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
 
   }
 
@@ -416,7 +422,7 @@
     grid-row: 3/4;
     font-size: 1.2vw;
     margin-left: 1vw;
-    margin-top: -2vh;
+    margin-top: 0vh;
 
   }
 
@@ -430,11 +436,12 @@
     border: 2px #DACEC6;
     font-family: "Inter", sans-serif;
     margin-bottom: 0.8vw;
+    color: #68513F
   }
 
   .nightcream {
     display: grid;
-    grid-column: 4/5;
+    grid-column: 4;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -447,6 +454,7 @@
     margin-left: 0.8vw;
     margin-top: 0.8vw;
     width: 93%;
+
   }
 
   .nightcream__name {
@@ -461,7 +469,7 @@
     grid-column: 2/3;
     grid-row: 2/3;
     text-align: center;
-    font-size: 1vw;
+    font-size: 0.8vw;
 
   }
 
@@ -470,7 +478,7 @@
     grid-row: 3/4;
     font-size: 1.2vw;
     margin-left: 1vw;
-    margin-top: -2vh;
+    margin-top: 0vh;
 
   }
 
@@ -484,6 +492,7 @@
     border: 2px #DACEC6;
     font-family: "Inter", sans-serif;
     margin-bottom: 0.8vw;
+    color: #68513F
   }
 
 
@@ -1135,8 +1144,4 @@
   }
 
 
-
-
-  /*# sourceMappingURL=desktop.css.map */
-  /*# sourceMappingURL=header.css.map */
 }

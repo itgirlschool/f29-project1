@@ -151,22 +151,15 @@
   /*Styles for 3 display*/
 
 
-  .top-of-products {
-    display: grid;
-    grid-template-rows: 1fr 0.5fr 0.5fr;
-    justify-content: center;
+  .products {
     text-align: center;
-  }
-
-
-  .lady {
-    width: 100%;
-    margin-bottom: 4vh;
+    width: 35%;
   }
 
   .products-word {
     text-align: center;
     margin-top: 12vh;
+
   }
 
   .main-text {

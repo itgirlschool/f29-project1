@@ -365,13 +365,23 @@
   }
 
   .lady {
-    width: 100%;
+    max-width: 99%;
     margin-bottom: 4vh;
+  }
+
+  .lady-cont {
+    width: 100%;
+
   }
 
   .products {
     text-align: center;
-    width: 50%;
+    width: 35%;
+  }
+
+  .products-word {
+    text-align: center;
+    margin-top: 12vh;
 
   }
 

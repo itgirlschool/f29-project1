@@ -267,6 +267,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5vw;
+    width: 96%;
+    margin-left: 2vw;
+
 
   }
 

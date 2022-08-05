@@ -150,6 +150,17 @@
 
   /*Styles for 3 display*/
 
+  .lady {
+    max-width: 99%;
+    margin-bottom: 4vh;
+  }
+
+  .lady-cont {
+    width: 100%;
+
+  }
+
+
 
   .products {
     text-align: center;

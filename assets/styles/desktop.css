@@ -251,6 +251,7 @@
   .products-word {
     text-align: center;
     margin-top: 12vh;
+    ;
   }
 
   .main-text {
@@ -265,9 +266,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 0.5vw;
     justify-content: space-between;
+    width: 98%;
   }
 
   .cleanser {
+
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
@@ -608,7 +611,7 @@
     /*justify-content: space-between;*/
     margin-top: 4vh;
     margin-left: 0.2%;
-    /*width: 98%;*/
+    width: 98%;
     display: grid;
     gap: 0.1%;
     grid-template-columns: 1fr 1fr 1fr;

@@ -233,13 +233,14 @@
     color: #68513F;
     transform: rotate(5.54deg);
   }
- /*добавила отступ для кнопки вниз*/
+
+  /*добавила отступ для кнопки вниз*/
   .buttontolook {
     grid-row: 5 / 6;
     grid-column: 1 / 2;
     height: 8vh;
     width: 100%;
-    margin-top:8%;
+    margin-top: 8%;
     text-align: center;
     background: #F1EBE7;
     border: #DACEC6 solid 1px;
@@ -334,6 +335,261 @@
 
   .skincare_mask {
     display: none;
+
+  }
+
+  /*Styles for 3 display*/
+
+  .lady {
+    width: 100%;
+  }
+
+  .products-word {
+    text-align: center;
+    margin-top: 12vh;
+  }
+
+  .main-text {
+    text-align: center;
+    margin-top: 12vh;
+    font-family: "STsong", serif;
+    font-size: 4vw;
+  }
+
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1.2vw;
+    justify-content: space-between;
+  }
+
+  .cleanser {
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+    border-radius: 10px;
+    width: 100%
+  }
+
+  .cleanser__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 1.6vw;
+    margin-top: 1.6vw;
+    width: 93%;
+  }
+
+  .cleanser__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1.6vw;
+    margin-left: 1.6vw;
+  }
+
+  .cleanser__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1.6vw;
+
+  }
+
+  .cleanser__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.8vw;
+    margin-left: 1.6vw;
+    margin-top: -2vh;
+
+  }
+
+  .cleanser__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 1.6vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1.6vw;
+    color: #68513F;
+
+  }
+
+  .serums {
+    grid-row: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+    border-radius: 10px;
+  }
+
+  .serums__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 1.6vw;
+    margin-top: 1.6vw;
+    width: 93%;
+  }
+
+  .serums__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1.6vw;
+    margin-left: 1.6vw;
+  }
+
+  .serums__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1.6vw;
+
+  }
+
+  .serums__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.8vw;
+    margin-left: 1.6vw;
+    margin-top: -2vh;
+
+  }
+
+  .serums__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 1.6vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1.6vw;
+    color: #68513F;
+
+  }
+
+  .bodywash {
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+    border-radius: 10px;
+  }
+
+  .bodywash__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 1.6vw;
+    margin-top: 1.6vw;
+    width: 93%;
+  }
+
+  .bodywash__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1.6vw;
+    margin-left: 1.6vw;
+  }
+
+  .bodywash__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1.6vw;
+
+  }
+
+  .bodywash__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.8vw;
+    margin-left: 1.6vw;
+    margin-top: -2vh;
+
+  }
+
+  .bodywash__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 1.6vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1.6vw;
+    color: #68513F;
+
+  }
+
+  .nightcream {
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+    border-radius: 10px;
+  }
+
+  .nightcream__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 1.6vw;
+    margin-top: 1.6vw;
+    width: 93%;
+  }
+
+  .nightcream__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1.6vw;
+    margin-left: 1.6vw;
+  }
+
+  .nightcream__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1.6vw;
+
+  }
+
+  .nightcream__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.8vw;
+    margin-left: 1.6vw;
+    margin-top: -2vh;
+
+  }
+
+  .nightcream__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 1.6vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 1.6vw;
+    color: #68513F;
 
   }
 
@@ -678,124 +934,148 @@
     margin-top: -5em;
   }
 
-/*Style for Footer*/
-/*Добавила стили*/
+  /*Style for Footer*/
+  /*Добавила стили*/
 
-.maincontainer__footer {
-  display : grid;
-  width : 100%;
-  height : 100vh;
-  background : white;
+  .maincontainer__footer {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    background: white;
   }
+
   .container__footer {
-  display : grid;
-  grid-template-columns : 1fr;
-  grid-template-rows : repeat(11,1fr);
-  width : 95%;
-  height : 100vh;
-  justify-self : center;
-  margin-top : 1em;
-  background : #E7DED8;
-  border-radius : 10px;
-  justify-items : center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(11, 1fr);
+    width: 95%;
+    height: 100vh;
+    justify-self: center;
+    margin-top: 1em;
+    background: #E7DED8;
+    border-radius: 10px;
+    justify-items: center;
   }
-  .text__logo, .text_menu0,
-  .text_menu00, .text_menu2,
-  .text_menu3, .text_menu4,
-  .text_menu6, .text_menu7,
-  .text_menu8, .text_menu9,
-  .text_menu10, .text_menu11,
-  .text_menu12, .text_menu13,
+
+  .text__logo,
+  .text_menu0,
+  .text_menu00,
+  .text_menu2,
+  .text_menu3,
+  .text_menu4,
+  .text_menu6,
+  .text_menu7,
+  .text_menu8,
+  .text_menu9,
+  .text_menu10,
+  .text_menu11,
+  .text_menu12,
+  .text_menu13,
   .text_secondtext_bywebestica,
   .text_second_bywebflow {
-  display : none;
+    display: none;
   }
+
   .logoname {
-  grid-row : 1 / 2;
-  grid-column : 1 / 2;
-  justify-self : center;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    justify-self: center;
   }
+
   .titels__title1 {
-  grid-row : 2 / 3;
-  grid-column : 1 / 2;
-  font-size : 1.5em;
-  font-weight : 300;
-  font-family : 'STSong', serif;
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'STSong', serif;
   }
+
   .titels__title2 {
-  grid-row : 5 / 6;
-  grid-column : 1 / 2;
-  font-size : 1.5em;
-  font-weight : 300;
-  font-family : 'STSong', serif;
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'STSong', serif;
   }
+
   .titels__title3 {
-  grid-row : 8 / 9;
-  grid-column : 1 / 2;
-  font-size : 1.5em;
-  font-weight : 300;
-  font-family : 'STSong', serif;
+    grid-row: 8 / 9;
+    grid-column: 1 / 2;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'STSong', serif;
   }
+
   .text_menu1 {
-  grid-row : 3 / 4;
-  grid-column : 1 / 2;
-  font-size : 3vw;
-  font-weight : 400;
-  font-family : 'Inter', sans-serif;
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
   }
+
   .text_menu5 {
-  grid-row : 4 / 5;
-  grid-column : 1 / 2;
-  font-size : 3vw;
-  font-weight : 400;
-  font-family : 'Inter', sans-serif;
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
   }
+
   .text_secondtext_email {
-  grid-row : 6 / 7;
-  grid-column : 1 / 2;
-  font-size : 3vw;
-  font-weight : 400;
-  font-family : 'Inter', sans-serif;
-  color : #68513F;
+    grid-row: 6 / 7;
+    grid-column: 1 / 2;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #68513F;
   }
+
   .text_secondtext_tel {
-  grid-row : 7 / 8;
-  grid-column : 1 / 2;
-  font-size : 3vw;
-  font-weight : 400;
-  font-family : 'Inter', sans-serif;
-  color : #68513F;
+    grid-row: 7 / 8;
+    grid-column: 1 / 2;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #68513F;
   }
+
   .text_menu14 {
-  grid-row : 9 / 10;
-  grid-column : 1 / 2;
-  font-size : 3vw;
-  font-weight : 400;
-  font-family : 'Inter', sans-serif;
+    grid-row: 9 / 10;
+    grid-column: 1 / 2;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
   }
+
   .text_menu15 {
-  grid-row : 10 / 11;
-  grid-column : 1 / 2;
-  font-size : 3vw;
-  font-weight : 400;
-  font-family : 'Inter', sans-serif;
+    grid-row: 10 / 11;
+    grid-column: 1 / 2;
+    font-size: 3vw;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
   }
+
   .logos_social {
-  grid-row : 11 / 12;
-  grid-column : 1 / 2;
-  display : grid;
-  justify-items : center;
+    grid-row: 11 / 12;
+    grid-column: 1 / 2;
+    display: grid;
+    justify-items: center;
   }
+
   .logo_facebook {
-  grid-column : 1 / 2;
+    grid-column: 1 / 2;
   }
+
   .logo_insta {
-  grid-column : 2 / 3;
+    grid-column: 2 / 3;
   }
+
   .logo_pinterest {
-  grid-column : 3 / 4;
+    grid-column: 3 / 4;
   }
+
   .logo_twit {
-  grid-column : 4 / 5;
+    grid-column: 4 / 5;
   }
 }

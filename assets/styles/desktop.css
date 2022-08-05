@@ -242,6 +242,244 @@
     padding-top: 5%;
   }
 
+  /*Styles for 3 display*/
+
+  .lady {
+    width: 100%;
+  }
+
+  .products-word {
+    text-align: center;
+    margin-top: 12vh;
+  }
+
+  .main-text {
+    text-align: center;
+    margin-top: 12vh;
+    font-family: "STsong", serif;
+    font-size: 4vw;
+  }
+
+  .photos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.5vw;
+    justify-content: space-between;
+  }
+
+  .cleanser {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+  }
+
+  .cleanser__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 0.8vw;
+    margin-top: 0.8vw;
+    width: 93%;
+  }
+
+  .cleanser__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1vw;
+    margin-left: 1vw;
+  }
+
+  .cleanser__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1vw;
+
+  }
+
+  .cleanser__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-top: -2vh;
+
+  }
+
+  .cleanser__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 0.8vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0.8vw;
+  }
+
+  .serums {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+  }
+
+  .serums__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 0.8vw;
+    margin-top: 0.8vw;
+    width: 93%;
+  }
+
+  .serums__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1vw;
+    margin-left: 1vw;
+  }
+
+  .serums__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1vw;
+
+  }
+
+  .serums__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-top: -2vh;
+
+  }
+
+  .serums__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 0.8vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0.8vw;
+  }
+
+  .bodywash {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+  }
+
+  .bodywash__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 0.8vw;
+    margin-top: 0.8vw;
+    width: 93%;
+  }
+
+  .bodywash__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1vw;
+    margin-left: 1vw;
+  }
+
+  .bodywash__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1vw;
+
+  }
+
+  .bodywash__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-top: -2vh;
+
+  }
+
+  .bodywash__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 0.8vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0.8vw;
+  }
+
+  .nightcream {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 3fr repeat(3, 0.5fr);
+    font-family: "Inter", sans-serif;
+    background: #E7DED8;
+  }
+
+  .nightcream__photo {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    margin-left: 0.8vw;
+    margin-top: 0.8vw;
+    width: 93%;
+  }
+
+  .nightcream__name {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: start;
+    font-size: 1vw;
+    margin-left: 1vw;
+  }
+
+  .nightcream__price {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+    font-size: 1vw;
+
+  }
+
+  .nightcream__text {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    font-size: 1.2vw;
+    margin-left: 1vw;
+    margin-top: -2vh;
+
+  }
+
+  .nightcream__button {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    width: 93%;
+    margin-left: 0.8vw;
+    border-radius: 5px;
+    background: #F1EBE7;
+    border: 2px #DACEC6;
+    font-family: "Inter", sans-serif;
+    margin-bottom: 0.8vw;
+  }
+
+
   /*Styles for 4 display*/
 
   .container_feature {
@@ -352,7 +590,7 @@
   .container__blog {
     display: grid;
     max-height: 100vh;
-    max-width: 98vw;
+    /*max-width: 98vw;*/
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 5fr 2fr 2fr 1fr;
     background: white;
@@ -370,7 +608,7 @@
     /*justify-content: space-between;*/
     margin-top: 4vh;
     margin-left: 0.2%;
-    width: 98%;
+    /*width: 98%;*/
     display: grid;
     gap: 0.1%;
     grid-template-columns: 1fr 1fr 1fr;

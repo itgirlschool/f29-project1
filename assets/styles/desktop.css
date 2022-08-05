@@ -272,6 +272,7 @@
   .cleanser {
 
     display: grid;
+    grid-column: 1/2;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -325,6 +326,7 @@
 
   .serums {
     display: grid;
+    grid-column: 2/3;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -378,6 +380,7 @@
 
   .bodywash {
     display: grid;
+    grid-column: 3/4;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;
@@ -431,6 +434,7 @@
 
   .nightcream {
     display: grid;
+    grid-column: 4/5;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 3fr repeat(3, 0.5fr);
     font-family: "Inter", sans-serif;

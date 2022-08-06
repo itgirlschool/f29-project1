@@ -155,6 +155,7 @@
     grid-template-rows: 1fr 1fr;
     width: 100%;
     height: 100vh;
+    margin-bottom: 30%;
   }
 
   .skincare_hands {
@@ -195,9 +196,10 @@
   }
 
   .skincare_face {
-    display: grid;
-    width: 30%;
-    height: 25%;
+      width: 30%;
+      height: 25%;
+      padding-top: 2%;
+    }
   }
 
   .skincare_tools {
@@ -241,7 +243,6 @@
   .skincare_mask {
     padding-top: 5%;
   }
-
   /*Styles for 3 display*/
 
 

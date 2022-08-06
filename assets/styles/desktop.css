@@ -200,7 +200,7 @@
       height: 25%;
       padding-top: 2%;
     }
-  }
+  
 
   .skincare_tools {
     display: grid;
@@ -540,19 +540,19 @@
   }
   
   .feature_2_header {
-   display: grid;
-   left: calc(50%);
-   font-family: 'STSong';
-   font-style: normal;
-   font-weight: 300;
-   font-size: 4em;
-   line-height:1.5em;
-   text-align: center;
+  display: grid;
+  left: calc(50%);
+  font-family: 'STSong';
+  font-style: normal;
+  font-weight: 300;
+font-size: 4em;
+line-height:1.5em;
+text-align: center;
   }
   
   .feature_2_body {
-   display: grid;
-   padding-left: 15%;
+display: grid;
+padding-left: 15%;
   width: 70%;
   height: 10%;
     left: 50%;

@@ -481,9 +481,10 @@
     text-align: center;
     color: #000000;
   }
+  /*Добавила паддинг,тк кнопка звезжала на текст */
   .feature_2_button{
   padding-left: 45%;
-  padding-top: 5%;
+  padding-top: 30%;
   }
   .feature_2_button_1 {
     display: grid;

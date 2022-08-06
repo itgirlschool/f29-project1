@@ -291,11 +291,7 @@
   }
 
   .skincare_face {
-    display: grid;
-    padding-left: 25%;
-    padding-bottom: 15%;
-    height: 30vh;
-    width: 50vw;
+   display: none;
   }
 
   .skincare_tools {
@@ -310,14 +306,7 @@
   }
 
   .skincare_body_text {
-    display: grid;
-    grid-row: 1/2;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.5em;
-    line-height: 1em;
-    text-align: center;
-    color: #000000;
+    display: none;
   }
 
   .skincare_button {
@@ -610,66 +599,95 @@
     display: grid;
     width: 100%;
     height: 100vh;
-    grid-template-areas: "feature_1 "
-      "feature_2"
-      "feature_3 ";
-
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+  
   }
-
+  
+  
   .feature_1 {
-    grid-area: feature_1;
+    display: grid;
     padding-left: 2%;
   }
-
+  
   .feature_1_image {
-    padding-top: 5%;
-    width: 100%;
-    height: 100%;
+display: none;
   }
-
-  .feature_2 {
-    grid-area: feature_2;
-
-  }
-
+  
   .feature_2_title {
-    font-family: 'Style Script';
-    font-weight: 200;
-    font-size: 7em;
-    line-height: 50px;
+    display: grid;
+    
+    font-family: "Style Script";
+    font-weight: 400;
+    font-size: 10em;
+    line-height: 2%;
     text-align: center;
     color: #68513F;
   }
-
+  
   .feature_2_header {
-    font-family: 'STSong';
-    font-style: normal;
-    font-weight: 200;
-    font-size: 50px;
-    line-height: 50px;
-    text-align: center;
-    color: #000000;
-    padding-left: 10%;
-
+  display: grid;
+  
+  font-family: 'STSong';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3em;
+  line-height:1em;
+text-align: center;
   }
-
+  
   .feature_2_body {
-    font-family: 'Inter';
+  display: grid;
+  padding-left: 15%;
+  width: 70%;
+  height: 10%;
+    left: 50%;
+    top: 50%;
+    font-family: "Inter";
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
-    line-height: 31px;
+    font-size: 1em;
+    line-height: 1.5em;
     text-align: center;
     color: #000000;
   }
-
-  .feature_2_button {
-    display: none;
+  .feature_2_button{
+  padding-left: 45%;
+  padding-top: 5%;
   }
-
+  .feature_2_button_1 {
+    display: grid;
+    width: 30%;
+    height: 15%;
+    padding: 3%;
+    
+    background-color: #F1EBE7;
+    border-color: #DACEC6;
+    color: #68513F;
+    text-align: center;
+  }
+  
   .feature_3 {
-    display: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: 10%;
   }
+  
+  .feature_text {
+    display: none;
+    
+  }
+  
+  .feature_images {
+    
+    display: none;
+    
+  }
+
+
 
   /*style for screen 5*/
 

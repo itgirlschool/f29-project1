@@ -164,18 +164,18 @@
 
   .products {
     text-align: center;
-    width: 35%;
+    width: 45%;
   }
 
   .products-word {
     text-align: center;
-    margin-top: 12vh;
+    margin-top: 4vh;
 
   }
 
   .main-text {
     text-align: center;
-    margin-top: 12vh;
+    margin-top: 4vh;
     font-family: "STsong", serif;
     font-size: 4vw;
   }
@@ -424,28 +424,31 @@
     height: 100vh;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin-bottom: 70vh;
-  
+    margin-bottom: 20vh;
+    /*было 70, Наталья исправила на 20*/
+
   }
-  .feature_block{
-  display: grid;
-  grid-template-columns: 60% 40%;
-  
+
+  .feature_block {
+    display: grid;
+    grid-template-columns: 60% 40%;
+
   }
+
   .feature_1 {
     display: grid;
     padding-left: 2%;
   }
-  
+
   .feature_1_image {
     padding-top: 5%;
     width: 90%;
     height: 80%;
   }
-  
+
   .feature_2_title {
     display: grid;
-    
+
     font-family: "Style Script";
     font-weight: 300;
     font-size: 5em;
@@ -453,24 +456,24 @@
     text-align: center;
     color: #68513F;
   }
-  
+
   .feature_2_header {
-   display: grid;
-   left: calc(50%);
-   font-family: 'STSong';
-   font-style: normal;
-   font-weight: 200;
-   font-size: 2em;
-   line-height:1em;
-   text-align: center;
-   padding-bottom: 15%;
+    display: grid;
+    left: calc(50%);
+    font-family: 'STSong';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2em;
+    line-height: 1em;
+    text-align: center;
+    padding-bottom: 15%;
   }
-  
+
   .feature_2_body {
-   display: grid;
-   padding-left: 15%;
-  width: 70%;
-  height: 10%;
+    display: grid;
+    padding-left: 15%;
+    width: 70%;
+    height: 10%;
     left: 50%;
     top: 30%;
     font-family: "Inter";
@@ -481,30 +484,32 @@
     text-align: center;
     color: #000000;
   }
+
   /*Добавила паддинг,тк кнопка звезжала на текст */
-  .feature_2_button{
-  padding-left: 45%;
-  padding-top: 30%;
+  .feature_2_button {
+    padding-left: 45%;
+    padding-top: 30%;
   }
+
   .feature_2_button_1 {
     display: grid;
     width: 30%;
     height: 15%;
     padding: 3%;
-    
+
     background-color: #F1EBE7;
     border-color: #DACEC6;
     color: #68513F;
     text-align: center;
   }
-  
+
   .feature_3 {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     margin-top: 10%;
   }
-  
+
   .feature_text {
     padding-left: 25%;
     height: 15%;
@@ -517,11 +522,11 @@
     text-align: center;
     color: #000000;
   }
-  
+
   .feature_images {
     padding-left: 30%;
     padding-top: 3%;
-    
+
   }
 
 
@@ -628,10 +633,10 @@
 
   .container__blog {
     display: grid;
-    max-height: 98%;
+    /*max-height: 98%;*/
     max-width: 100%;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: 25% 40% 35%;
+    grid-template-rows: 0.2fr 0.8fr 1fr;
     background: white;
     grid-gap: 0.5em;
     margin-right: 5%;
@@ -643,9 +648,9 @@
     grid-row: 1/2;
     grid-column: 1/13;
     background: white;
-    margin-top: 10%;
+    /*margin-top: 10%;*/
     max-width: 100%;
-    max-height: 30%;
+    /*max-height: 30%;*/
     margin-left: 2%;
     margin-right: 0%;
     justify-content: space-between;
@@ -773,7 +778,7 @@
     font-weight: 300;
     font-family: 'STSong', serif;
     margin-left: 0%;
-    margin-top: 20%;
+    margin-top: 5%;
     background: white;
 
   }
@@ -789,7 +794,7 @@
     grid-gap: 0.3em;
     margin-top: 0%;
     margin-bottom: 0vh;
-    max-height: 50%;
+    /*max-height: 50%;*/
   }
 
   @font-face {
@@ -804,7 +809,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin-top: -2vh;
+    margin-top: -9vh;
 
 
   }
